@@ -27,9 +27,16 @@ git clone https://github.com/pq-yang/MatAnyone2.git
 X:\你的python环境\python.exe -m pip install -e .
 cd /d X:\ComfyUI\custom_nodes\ComfyUI-MatAnyone2\third_party\MatAnyone2
 F:\你的python环境\python.exe -m pip install -e .
+如果安装报错可以进入：F:\ComfyUI\custom_nodes\ComfyUI-MatAnyone2\third_party\MatAnyone2\pyproject.toml
+找到依赖列表里的这行：
+'cchardet >= 2.1.7',
+'PySide6 >= 6.2.0',
+'pyqtdarktheme',
+这3个都删除在安装依赖即可。
 模型MEDEL目录：X:\ComfyUI\models\MatAnyone2\matanyone2.pth
 download：
 https://github.com/pq-yang/MatAnyone2/releases/download/v1.0.0/matanyone2.pth
 最后pip install -r requirements.txt
+
 
 
