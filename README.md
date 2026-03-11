@@ -22,6 +22,8 @@ You must also clone the official MatAnyone2 repository into:
 
 
 在你的ComfyUI\custom_nodes\ComfyUI-MatAnyone2目录新建third_party文件夹，然后运行
+git clone https://github.com/pq-yang/MatAnyone2.git
+下载MatAnyone2，然后进入MatAnyone2文件夹
 X:\你的python环境\python.exe -m pip install -e .
 cd /d X:\ComfyUI\custom_nodes\ComfyUI-MatAnyone2\third_party\MatAnyone2
 F:\你的python环境\python.exe -m pip install -e .
@@ -29,4 +31,5 @@ F:\你的python环境\python.exe -m pip install -e .
 download：
 https://github.com/pq-yang/MatAnyone2/releases/download/v1.0.0/matanyone2.pth
 最后pip install -r requirements.txt
+
 
